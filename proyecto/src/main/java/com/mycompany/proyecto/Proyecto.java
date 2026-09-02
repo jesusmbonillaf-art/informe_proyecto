@@ -17,5 +17,7 @@ public class Proyecto {
         System.out.print("Escriba una palabra: ");
         String hola = escribir.nextLine();
         System.out.println("Has escrito: " + hola);
+        System.out.print("Y su cantidad de letras es: " + hola.length());
+        escribir.close();
     }
 }
