@@ -16,7 +16,7 @@ public class Proyecto {
         Scanner escribir = new Scanner(System.in);
         System.out.print("Escriba una palabra: ");
         String hola = escribir.nextLine();
-        System.out.println("Has escrito: " + hola);
+        System.out.println("El usuario ingresó: " + hola);
         System.out.print("Y su cantidad de letras es: " + hola.length());
         escribir.close();
     }
