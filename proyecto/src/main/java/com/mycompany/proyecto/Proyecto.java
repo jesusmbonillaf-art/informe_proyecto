@@ -17,7 +17,8 @@ public class Proyecto {
         System.out.print("Escriba una palabra: ");
         String hola = escribir.nextLine();
         System.out.println("El usuario ingresó: " + hola);
-        System.out.print("Y su cantidad de letras es: " + hola.length());
+        System.out.println("Y su cantidad de letras es: " + hola.length());
+        System.out.println("Gracias por usar el codigo");
         escribir.close();
     }
 }
